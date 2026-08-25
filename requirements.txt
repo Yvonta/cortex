@@ -1,0 +1,12 @@
+peft>=0.7.0
+diffusers>=0.25.0
+uvicorn
+fastapi
+httpx
+requests
+flask
+ollama
+pydub
+chatterbox-tts
+python-multipart
+openai-whisper
