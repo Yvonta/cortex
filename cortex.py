@@ -343,6 +343,7 @@ def read_root():
     return {"message": "Donkey API is running!"}
 
 @app.post("/transcribe")
+@app.post("/v1/audio/transcriptions")
 async def transcribe_audio(file: UploadFile = File(...), language: str = None):
     """
     Upload an audio file to transcribe it to text.
